@@ -1,0 +1,37 @@
+
+
+
+
+Project: 8 Channel PWM Receiver (ESP32 + ExpressLRS)
+
+Description:
+This project implements an 8-channel PWM receiver using an ESP32 microcontroller.
+It receives control data from an ExpressLRS (ELRS) Nano receiver via CRSF protocol
+and outputs standard PWM signals for use with ESCs, servos, or motor drivers.
+
+Hardware Used:
+- ESP32 Development Board
+- RP1 ExpressLRS Nano Receiver V2
+- Jumper wires and power supply
+
+Features:
+- 8 PWM output channels
+- CRSF protocol decoding
+- Signal fail-safe protection
+- Smooth output mapping
+
+How to Upload:
+1. Open the file "8_channel_pwm_receiver.ino" in Arduino IDE.
+2. Select the correct ESP32 board and COM port.
+3. Click “Upload”.
+4. Connect your ExpressLRS receiver via UART (RX/TX).
+
+Default UART Pins (changeable in code):
+- RX → GPIO16
+- TX → GPIO17
+
+License:
+Open source for educational and personal projects.
+
+Author:
+Kunal Biswas & Utsab Das (GitHub:)
